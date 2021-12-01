@@ -1,21 +1,9 @@
-import random
+l = [12, 34, 77, 56, "   ", ["hello", 45, False], True, [45, 67, 8, "test"], "test"]
 
-
-def guessNum():
-    num = random.randrange(1, 15)
-    guess = int(input("Guess the number: "))
-    count = 0
-
-    while count < 100:
-        count += 1
-        if num == guess:
-            print(f"Congratulations you did it in {count} try")
-            break
-        if num < guess:
-            print("You guessed too high!")
-            guess = int(input("Guess the number: "))
-        if num > guess:
-            print("You guessed too small!")
-            guess = int(input("Guess the number: "))
-
-guessNum()
+for el in l:
+    if type(el) != list:
+        continue
+    else:
+        print(el)
+        for i in el:
+            print(i)
