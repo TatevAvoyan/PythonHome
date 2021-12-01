@@ -1,9 +1,11 @@
-l = [12, 34, 77, 56, "   ", ["hello", 45, False], True, [45, 67, 8, "test"], "test"]
+mylist = [2, 5, 2, 8, 5, 3, 2, 9, 6, 2, 6]
+newlist = []
 
-for el in l:
-    if type(el) != list:
-        continue
-    else:
-        print(el)
-        for i in el:
-            print(i)
+
+for i in mylist:
+    if i not in newlist:
+        newlist.append(i)
+
+
+print(mylist)
+print(newlist)
