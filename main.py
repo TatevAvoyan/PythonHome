@@ -1,11 +1,16 @@
-mylist = [2, 5, 2, 8, 5, 3, 2, 9, 6, 2, 6]
-newlist = []
+def my_print(*params, end="\n"):
+    text = ''
+    for i in params:
+        text += str(i)
+        text += ' '
+    print(text, end=end)
 
 
-for i in mylist:
-    if i not in newlist:
-        newlist.append(i)
+my_print(324, 'Hello', 35, True, "HI", end=" ====== ")
+my_print(324, 'Hello', 35, True, "HI", end="\t")
+my_print(324)
 
 
-print(mylist)
-print(newlist)
+print(324, 'Hello', 35, True, "HI", end=" ====== ")
+print(324, 'Hello', 35, True, "HI", end="\t")
+print(324)
