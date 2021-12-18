@@ -7,4 +7,5 @@ with open('names.txt', 'r', encoding='utf-8') as f:
 
     data.remove('')
 
+
 print(data)
