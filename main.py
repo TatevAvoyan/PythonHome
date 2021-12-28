@@ -11,9 +11,9 @@ def count_the_numbers():
     logging.info(f'First number: {num1}, Second number: {num2}, Operator: {char}')
 
     if not num1.isdigit() or not num2.isdigit():
-        print(f'ValueError: could not convert string to int/float: First number - {num1}, Second number - {num2}')
-        logging.error(f'ValueError: could not convert string to float: First number - {num1}, Second number - {num2}')
-        return 'ValueError'
+        error = f'ValueError: could not convert string to int/float: First number - {num1}, Second number - {num2}'
+        logging.error(error)
+        return error
     elif num1.isdigit() and num2.isdigit():
         if char == '+':
             result = float(num1) + float(num2)

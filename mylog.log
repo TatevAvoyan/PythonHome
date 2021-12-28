@@ -41,3 +41,9 @@
 2021-12-28 22:04:55,052 ERROR count_the_numbers : ValueError: could not convert string to float: First number - r, Second number - l
 2021-12-28 22:05:52,253 INFO count_the_numbers : First number: 6, Second number: 9, Operator: =
 2021-12-28 22:05:52,254 ERROR count_the_numbers : Invalid operator: =
+2021-12-28 22:09:27,216 INFO count_the_numbers : First number: y, Second number: 9, Operator: +
+2021-12-28 22:09:27,216 ERROR count_the_numbers : ValueError: could not convert string to float: First number - y, Second number - 9
+2021-12-28 22:10:08,879 INFO count_the_numbers : First number: y, Second number: o, Operator: +
+2021-12-28 22:10:08,880 ERROR count_the_numbers : ValueError: could not convert string to int/float: First number - y, Second number - o
+2021-12-28 22:10:56,546 INFO count_the_numbers : First number: t, Second number: 0, Operator: -
+2021-12-28 22:10:56,547 ERROR count_the_numbers : ValueError: could not convert string to int/float: First number - t, Second number - 0
