@@ -6,7 +6,7 @@ logging.basicConfig(filename='mylog.log', level=logging.INFO, format='%(asctime)
 def count_the_numbers():
 
     num1 = input('Input first number: ')
-    char = input('Input operation (+, -, * or /):')
+    char = input('Input operation (+, -, * or /): ')
     num2 = input('Input second number: ')
     logging.info(f'First number: {num1}, Second number: {num2}, Operator: {char}')
 
@@ -44,4 +44,3 @@ def count_the_numbers():
 
 res = count_the_numbers()
 print(res)
-
