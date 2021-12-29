@@ -15,21 +15,22 @@ def count_the_numbers():
         logging.error(error)
         return error
     elif num1.isdigit() and num2.isdigit():
+        num1, num2 = int(num1), int(num2)
         if char == '+':
-            result = float(num1) + float(num2)
+            result = num1 + num2
             logging.info(f'result: {result}')
             return result
         elif char == '-':
-            result = float(num1) - float(num2)
+            result = num1 - num2
             logging.info(f'result: {result}')
             return result
         elif char == '*':
-            result = float(num1) * float(num2)
+            result = num1 * num2
             logging.info(f'result: {result}')
             return result
         elif char == '/':
-            if not int(num2) == 0:
-                result = float(num1) / float(num2)
+            if not num2 == 0:
+                result = num1 / num2
                 logging.info(f'result: {result}')
                 return result
             else:
