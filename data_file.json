@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Carlo",
+        "surname": "Fiorenzo",
+        "address": "France",
+        "age": "34"
+    },
+    {
+        "name": "Emmy",
+        "surname": "Santo",
+        "address": "Italy",
+        "age": "20"
+    },
+    {
+        "name": "John",
+        "surname": "Smith",
+        "address": "London",
+        "age": "45"
+    },
+    {
+        "name": "Ann",
+        "surname": "Roggers",
+        "address": "New York",
+        "age": "23"
+    }
+]
